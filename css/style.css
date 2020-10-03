@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.logo{
+
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img{
+	width: 26%;
+	border:3px solid white;
+	border-radius: 50px;
+	margin: 5px;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+	/*height: 447px;*/
+}
+
+.nav-list{
+	width: 70%;
+	/*background-color:black;*/
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{
+	text-decoration: none;
+	color: white;
+	color: gray;
+}
+.rightNav{
+	/*background-color: blueviolet;*/
+	width: 30%;
+	text-align:right;
+	padding: 0 23px;
+
+}
+
+#search{
+	padding: 5px;
+	font-size: 17px;
+	border:2px solid gray;
+	border-radius: 9px;
+}
+
+.background{
+	background:rgba(0,0,0,0.4) url('../img/background.png');
+	background-size: cover;
+	background-blend-mode: darken;
+
+}
+.firstSection{
+	height: 100vh;
+}
+
+.box-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: 'Segoe UI',Tahoma,Geneva,Verdana,Sans-serif;
+	max-width: 50%;
+	margin: auto;
+	height: 80%;
+}
+.firsthalf{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.secondhalf{
+width: 30%;
+
+}
+
+.secondhalf img{
+width: 125%;
+border: 3px solid white;
+border-radius: 850px;
+display: block;
+margin: auto;
+}
+
+.text-big{
+font-size: 41px;
+}
+
+.text-small{
+font-size: 18px;
+}
+
+.btn{
+	padding: 8px 20px;
+	margin: 7px 3px;
+	border:2px solid white;
+	border-radius: 8px;
+	background:none;
+	color: white;
+	cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+.btn-sm{
+	padding: 6px 10px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.btn-dark{
+	color: black;
+	border: 2px solid gray;
+}
+
+.section{
+	/*height: 206px;*/
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	max-width: 80%;
+	margin: auto;
+	font-family: 'Ubuntu', sans-serif;
+	/*padding: 10px;
+	/*background:rgba(0,0,0,0.4) url('../img/faint.jfif');
+	background-size: cover;
+	background-blend-mode: darken;*/
+	/*background-color: #e6f2ff;
+	background-size: cover;*/
+	padding:50px;
+}
+
+.section-Left{
+	height: 316px;
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	flex-direction: row-reverse;
+	max-width: 80%;
+	
+
+}
+.paras{
+	padding: 0px 85px;
+}
+.sectionTag{
+	padding: 16px 0;
+}
+.sectionSubTag {
+	font-size: 20px;
+	font-weight: 30%;
+}
+
+
+.thumbnail{
+	width: 150px;
+}
+.thumbnail img{
+	width: 220px;
+	border:2px solid black;
+	border-radius: 22px;
+	margin-top: 50px;
+}
+
+
+#newsletter {
+  background:  url('../img/news2.jfif') no-repeat center top fixed;
+  box-shadow:inset  0 0 2000px rgba(0, 0, 0, 0.6);    
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+  margin-top:105px;
+    margin-bottom: 60px; 
+ 
+}
+
+#newsletter .overlay {
+  height: 80%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  color: white;
+}
+
+
+
+#newsletter .btn {
+  background: red;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  height: 50px;
+  width: 15%;
+  transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+  #newsletter .btn {
+    width: 100%;
+  }
+}
+#newsletter .btn:hover {
+  background: #55b03f;
+}
+
+#newsletter .btn .fa {
+  padding-right: 10px;
+}
+
+
+.contact{
+	background-color: #fff2e6;
+	height: 533px;
+}
+.text-center{
+	text-align: center;
+	padding-top: : 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 35px;
+}
+.form{
+	max-width:62%;
+	margin: 26px auto;
+}
+.form input{
+	margin: 14px 0;
+	padding: 5px 13px;
+	width: 100%;
+	font-size: 19px;
+	/*padding:7px;*/
+	border: 2px solid gray;
+	border-radius: 6px;
+	font-family: 'Segoe UI',Tahoma,Geneva,Verdana,Sans-serif;
+}
+.text-footer{
+	text-align: center;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.burger{
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	right: 5px;
+	top: 15px;
+}
+.line{
+	width: 33px;
+	background-color: white;
+	height: 4px;
+	margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+	.nav-list{
+		flex-direction: column;
+	}
+	.navbar{
+		/*height: 447px;*/
+		flex-direction: column;
+		transition: 0.7s ease-out;
+	}
+	.rightNav{
+		text-align: center;
+	}
+	.box-main{
+		flex-direction: column-reverse;
+		max-width: 100%;
+
+	}
+	#search{
+		width: 100%;
+	}
+	.burger{
+		display: block;
+	}
+	.h-nav-resp{
+		height: 72px;
+	}
+	.v-class-resp{
+		opacity: 0;
+	}
+	.section{
+		flex-direction: column-reverse;
+	}
+	.text-small{
+		text-align: center;
+	}
+	.text-big{
+		text-align: center;
+	}
+	.buttons{
+		text-align: center;
+	}
+	.paras{
+		padding: 0px;
+	}
+	.thumbnail img{
+	width: 160px;
+	border:2px solid black;
+	border-radius: 26px;
+	margin-top: 100px;
+}
+	.newsletter {
+	/*height:20px;*/
+	/*width:150px;*/
+	/*margin-top:-10px;*/
+	
+	
+}
+}
